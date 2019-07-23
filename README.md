@@ -10,7 +10,7 @@
 
 ### Alumno. Tovar Farfan Raul
 ### Control de procesos 
-
+# practica 1
 # Introduccion al LabVIEW 
 
 LabVIEW (Laboratory Virtual Instrument Engineering Workbench) de National Instruments es
