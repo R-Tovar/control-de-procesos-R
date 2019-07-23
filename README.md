@@ -51,4 +51,11 @@ una vez aqui podemos Visualizar las herramientas que nos ofrece el programa en c
 
 3.-Entrandoen materia, Lo que prosigue es arrastrar 2 ventanas de control u un indicador, para de esta forma poder variar los números que se van a restar y el indicador en sonde se mostrara el resultado de la operación.
 De esta manera tenemos como resultado un restador el cual al cambiarle la operación puede ser una suma, multiplicación, división o cualquier otro operador.
-<img src="praktik-1-5.png"/>
+<img src="praktik-1-5.png"/>.
+
+
+
+# practica 2
+### indicadores nnumericos
+
+# Indicadores numericos
