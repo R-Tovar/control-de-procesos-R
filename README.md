@@ -1,5 +1,5 @@
 # control-de-procesos-R
-practicas de curso julio-agosto 2019
+### practicas de curso julio-agosto 2019
 # Tecnologico de estudios superiores de Huixquilucan
 
 ### Ingenieria Mecatronica 
@@ -50,4 +50,5 @@ una vez aqui podemos Visualizar las herramientas que nos ofrece el programa en c
 <img src="praktik-1-4.png"/>
 
 3.-Entrandoen materia, Lo que prosigue es arrastrar 2 ventanas de control u un indicador, para de esta forma poder variar los números que se van a restar y el indicador en sonde se mostrara el resultado de la operación.
-De esta manera tenemos como resultado un restador el cual al cambiarle la operación puede ser una suma, multiplicación, división o cualquier otro operador
+De esta manera tenemos como resultado un restador el cual al cambiarle la operación puede ser una suma, multiplicación, división o cualquier otro operador.
+<img src="praktik-1-5.png"/>
