@@ -38,7 +38,7 @@ se modifica el programa.
 # Contenido
 ### Primer programa en labVIEW
 Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
-<img src=
+
 
 1.- Ejecutando por primera vez LabView aparecerá un recuadro "Welcome to LabView el cual cancelaremos presionando (x) en la parte superior derecha, Para posteriormente abrir un nuevo VI como se muestra a continuación .
 <img src="praktik-1-2.png"//>
@@ -47,5 +47,7 @@ Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer p
 <img src="praktik-1-3.png"/>
 
 una vez aqui podemos Visualizar las herramientas que nos ofrece el programa en cada plano de las ventanas y de esta manera empezar a trabajar en el primer programa visualde esta curso.
-<img src=
+<img src="praktik-1-4.png"/>
 
+3.-Entrandoen materia, Lo que prosigue es arrastrar 2 ventanas de control u un indicador, para de esta forma poder variar los números que se van a restar y el indicador en sonde se mostrara el resultado de la operación.
+De esta manera tenemos como resultado un restador el cual al cambiarle la operación puede ser una suma, multiplicación, división o cualquier otro operador
