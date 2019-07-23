@@ -70,10 +70,23 @@ para  Empezar abrimos un nuevo archivo VI. Como en la práctica anterior, pero e
                          
 2-arrastramos los elementos que vamos a utilosar, las cuales son dos perillas que en esta ocaccipn sumaremos y les ponemps un display a cada una para mostrar el valor que tienen en numero y la suma la realizamos como en la practica amterior, tomemos en cuenta hacer unas modificaciones como agrandar la perilla y modificar la escala como en la imagen.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-2-4.jpg"/>
-3.-despues agragamos un siclo wileara que la operacion se ejecute constante mente mientras se mantenga, tamboen un temporisador par que se este ejecutando cada cierto tiempo y una modificacion mas, dando click derecho sobre cialquoer perilla la remplasaremos con otro dispocitivo que tenga la mismafuncion.
+
+3.-despues agragamos un siclo wile Para que la operacion se ejecute constante mente mientras se mantenga, tamboen un temporisador par que se este ejecutando cada cierto tiempo y una modificacion mas, dando click derecho sobre cialquoer perilla la remplasaremos con otro dispocitivo que tenga la misma funcion.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-2-3.jpg"/>
 
+#conclucion
+en esta practica Pudimos observar algunos instrumentos virtuales que se pueden implementar parara el mejor uso de un programa virtual, de esta manera y conociendo estos detalles se podrán utilizar de mejor manera en programas más complejos. 
 
 
+
+# practica 3
+#### programa calculo del IMC
+
+# intepduccion
+En esta practica se pretende realizar un programa en el cual se pueda calcular el IMC,pero a qie se refiere el IMC. Una medida de la obesidad se determina mediante el índice de masa corporal (IMC), que se calcula dividiendo los kilogramos de peso por el cuadrado de la estatura en metros (IMC = peso [kg]/ estatura [m2]). Según el Instituto Nacional del Corazón, los Pulmones y la Sangre de los Estados Unidos (NHLBI), el sobrepeso se define como un IMC de más de 25. Se considera que una persona es obesa si su IMC es superior a 30. Usted puede determinar su IMC con la calculadora que se encuentra a continuación. Con la cifra del IMC puede averiguar su composición corporal en la tabla que aparece en el indocadoe de mas en el programa.
+
+# Desarrollo
+1.- para empesar, pensamos en los insteumentoa virtuales que vamos a utilizar ya que vamos a agregar 2 pantallotas de control para ingresar la alturo en (m) y las decimales en (cm),otra mas para el peso en Kg , recordando que la mayoria de los programas que crearemos tienen que estar dentro de un siclo wile y claro nesecitamos un indicador para observar el resultado del (imc).
+<img src="
 
 
