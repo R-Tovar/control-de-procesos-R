@@ -66,11 +66,12 @@ Los ficheros generados con Labview se llaman Instrumentos Virtuales (VIs). Cada 
 para  Empezar abrimos un nuevo archivo VI. Como en la práctica anterior, pero en esta ocasión   construiremos un programa el cual demostrará el funcionamiento de algunos instrumentos virtuales que podemos implementar en una simulación.
 
 1.-dando click derecho sobre nuesros espacios de trabajp nos vamos a numeric, ai podemos observar algunas hwrraminetas qie se utilisaran y conectaremos entre si para poder ver si buen funcionamiento basico.
+<img src="praktik-2-2.jpg"/>.
+                         
+2-arrastramos los elementos que vamos a utilosar, las cuales son dos perillas que en esta ocaccipn sumaremos y les ponemps un display a cada una para mostrar el valor que tienen en numero y la suma la realizamos como en la practica amterior, tomemos en cuenta hacer unas modificaciones como agrandar la perilla y modificar la escala como en la imagen.
 <img src="
-
-
-
-
+3.-despues agragamos un siclo wileara que la operacion se ejecute constante mente mientras se mantenga, tamboen un temporisador par que se este ejecutando cada cierto tiempo y una modificacion mas, dando click derecho sobre cialquoer perilla la remplasaremos con otro dispocitivo que tenga la mismafuncion.
+<img src="
 
 
 
