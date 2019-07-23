@@ -71,7 +71,7 @@ para  Empezar abrimos un nuevo archivo VI. Como en la práctica anterior, pero e
 2-arrastramos los elementos que vamos a utilosar, las cuales son dos perillas que en esta ocaccipn sumaremos y les ponemps un display a cada una para mostrar el valor que tienen en numero y la suma la realizamos como en la practica amterior, tomemos en cuenta hacer unas modificaciones como agrandar la perilla y modificar la escala como en la imagen.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-2-4.jpg"/>
 3.-despues agragamos un siclo wileara que la operacion se ejecute constante mente mientras se mantenga, tamboen un temporisador par que se este ejecutando cada cierto tiempo y una modificacion mas, dando click derecho sobre cialquoer perilla la remplasaremos con otro dispocitivo que tenga la mismafuncion.
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-2-3.jpg"/>
 
 
 
