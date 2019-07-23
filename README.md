@@ -60,4 +60,19 @@ De esta manera tenemos como resultado un restador el cual al cambiarle la operac
 
 # Introduccion
 Los ficheros generados con Labview se llaman Instrumentos Virtuales (VIs). Cada VI se compone de dos partes principales: el panel frontal (front panel) o interfaz con el usuario donde se colocan controles como botones, perillas, leds, indicadores, etc.; para que el usuario observe cierta información y ejecute diversas acciones y el diagrama de bloques (block diagram) que es el código fuente del VI donde se programa el funcionamiento de la aplicación. En la Figura 1 se muestra el panel frontal y el diagrama de bloques de un programa en Labview.
-<img src="praktik-2-1.png"/>
+<img src="praktik-2-1.png"/>.
+
+# Desarrollo
+para  Empezar abrimos un nuevo archivo VI. Como en la práctica anterior, pero en esta ocasión   construiremos un programa el cual demostrará el funcionamiento de algunos instrumentos virtuales que podemos implementar en una simulación.
+
+1.-dando click derecho sobre nuesros espacios de trabajp nos vamos a numeric, ai podemos observar algunas hwrraminetas qie se utilisaran y conectaremos entre si para poder ver si buen funcionamiento basico.
+<img src="
+
+
+
+
+
+
+
+
+
