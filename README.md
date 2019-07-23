@@ -87,6 +87,8 @@ En esta practica se pretende realizar un programa en el cual se pueda calcular e
 
 # Desarrollo
 1.- para empesar, pensamos en los insteumentoa virtuales que vamos a utilizar ya que vamos a agregar 2 pantallotas de control para ingresar la alturo en (m) y las decimales en (cm),otra mas para el peso en Kg , recordando que la mayoria de los programas que crearemos tienen que estar dentro de un siclo wile y claro nesecitamos un indicador para observar el resultado del (imc).
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-3-2.jpg"/>
+
+2.-el calculo de ña masa probiene de una simple formula la cual ocuparemos para oerar nuestros datos y sacar el resultado, tambien recordemos poner un boton de stop para parar el programa en el ciclo wuile
 
 
