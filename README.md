@@ -40,9 +40,12 @@ se modifica el programa.
 Para poder iniciar con la programacion en LabVIEW y comenzar con nuesro primer programa es necesario ir explicando paso a paso los procedimientos a seguir como se muestra a continuacion.
 <img src=
 
-1.- Ejecutando por primera vez LabView aparecerá un recuadro como se muestra en la imagen 1 de  Welcome to LabView el cual cancelaremos presionando (x) en la parte superior derecha.
+1.- Ejecutando por primera vez LabView aparecerá un recuadro "Welcome to LabView el cual cancelaremos presionando (x) en la parte superior derecha, Para posteriormente abrir un nuevo VI como se muestra a continuación .
+<img src="praktik-1-2.png"//>
 
-2.-una vez abierto el nuevo VI presionamos Ctrl T para poder visualizar la parte virtual y la de diagrama de bloques, las cuales utilizaremos para construir mostró programa virtual de esta primer práctica
+2.-una vez abierto el nuevo VI presionamos Ctrl+T para poder visualizar la parte virtual y la de diagrama de bloques, las cuales utilizaremos para construir mostró programa virtual de esta primer práctica
 <img src="praktik-1-3.png"/>
 
+una vez aqui podemos Visualizar las herramientas que nos ofrece el programa en cada plano de las ventanas y de esta manera empezar a trabajar en el primer programa visualde esta curso.
+<img src=
 
