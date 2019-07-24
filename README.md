@@ -93,5 +93,8 @@ En esta practica se pretende realizar un programa en el cual se pueda calcular e
 <img src="praktik-3-1.jpg"/>
 
 3.-ahora remplasamos el indicador por algo mas grafico de esta forma podremos ver una pequeña grafica la cual sera mas didactico el poder observar el imc, y en la parte de decoraciones podremos poner unos rangos para observar los limites de imc.
-<img src=""/>
+<img src="praktik-3-3.jpg"/>.
+
+# conclucion
+en esta practica nos podemos dar cuenta que la implementacion de un programa virtual ya puede servor pra un usuario con una nesecidad y de esta manera crear programas que sean de utilidad para los demas. sin contar que es el princip para desarrollar sistemas que controlen erramoentas fisicas y se puedad monitoriar desde una computadora y de la misma manera controlarlos
 
