@@ -90,5 +90,8 @@ En esta practica se pretende realizar un programa en el cual se pueda calcular e
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/praktik-3-2.jpg"/>
 
 2.-el calculo de la masa probiene de una simple formula la cual ocuparemos para unir nuestros datos y sacar el resultado, tambien recordemos poner un boton de stop para parar el programa en el ciclo wuile,de esta forma paramos el programa de una mejor manera y casi esta listo nuestro programa.
+<img src="praktik-3-1.jpg"/>
 
+3.-ahora remplasamos el indicador por algo mas grafico de esta forma podremos ver una pequeña grafica la cual sera mas didactico el poder observar el imc, y en la parte de decoraciones podremos poner unos rangos para observar los limites de imc.
+<img src=""/>
 
