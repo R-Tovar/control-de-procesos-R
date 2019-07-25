@@ -96,5 +96,18 @@ En esta practica se pretende realizar un programa en el cual se pueda calcular e
 <img src="praktik-3-3.jpg"/>.
 
 # conclucion
-en esta practica nos podemos dar cuenta que la implementacion de un programa virtual ya puede servor pra un usuario con una nesecidad y de esta manera crear programas que sean de utilidad para los demas. sin contar que es el princip para desarrollar sistemas que controlen erramoentas fisicas y se puedad monitoriar desde una computadora y de la misma manera controlarlos
+en esta practica nos podemos dar cuenta que la implementacion de un programa virtual ya puede servor pra un usuario con una nesecidad y de esta manera crear programas que sean de utilidad para los demas. sin contar que es el princip para desarrollar sistemas que controlen erramoentas fisicas y se puedad monitoriar desde una computadora y de la misma manera controlarlos.
 
+
+# practica 4
+### Parpadeo de led
+
+# Introduccion
+A lo largo de la carrera de ingenieria mecatronica emos utilisado varios metodos para realizar una funcion bastante vacicas la cual conciste en prender un led  y una funcion mas avansada es hacer que el mismo led parpade con interbalos periodicos de un cierto tiempo. En esta ocacion proppndremos una formas mas y de esta manera segiremos abansando en la utilisacion del software virtual incluiendo una herramienta mjy conoaida la cual es arduino que aplica librerias en labview para poder tener una comunicacion en sus programas y poder tener interfacesque se puedan ver fisicamente.
+
+# Desarrollo
+1.- Una vez instaladas las paqueterias de arduino en labview procedemos a abrir un nuevo archivo, pero en vez de abrir un nuevo VI nos dirjimos a la pestaña de Tools ay nos deplasara una bentana, nos dirijimos a la parte que dise "Maker hub" en esta parye nos desplasa ptra bentana la cul solo tiene la opcion LINX, ai nos desplasa otra bentana con varias opciones nosotros elegimos "LINX Firmware", selecionmps y vamos al paso 2.
+<img src=""/>.
+2.-nos aparese una bentan de labview Maker hub ay lo unico que cambiarwmos en esta ocacion sera eltipo de arduino que estamos utilizando que en mi caso es el arduino UNO.Una vez realizado esto daremos Nex a todo asta llegra a la bentana donde nos pide ingresar el puerto COM que utilisaremos. Verificamos el puerto COM al que estamos conectaos, muchas veces nos lo da por defaul pero ay que corroborarlo.
+con esto listo prosedemos, nos carga una barra y nos dise qie si finlaizamos la conexion y un ejemplo launcher. selecciona,os ejemplo pra ver lo que seria el programa de un wnsendido de led.
+<img src=""/>.
