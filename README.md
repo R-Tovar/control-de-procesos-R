@@ -107,8 +107,9 @@ A lo largo de la carrera de ingenieria mecatronica emos utilisado varios metodos
 
 # Desarrollo
 1.- Una vez instaladas las paqueterias de arduino en labview procedemos a abrir un nuevo archivo, pero en vez de abrir un nuevo VI nos dirjimos a la pestaña de Tools ay nos deplasara una bentana, nos dirijimos a la parte que dise "Maker hub" en esta parye nos desplasa ptra bentana la cul solo tiene la opcion LINX, ai nos desplasa otra bentana con varias opciones nosotros elegimos "LINX Firmware", selecionmps y vamos al paso 2.
-<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practik-4.1.png"/>
+<img src="practik-4.1.png"/>
 2.-nos aparese una bentan de labview Maker hub, ay lo unico que cambiaremos en esta ocacion sera eltipo de arduino que estamos utilizando, que en mi caso es el arduino UNO.Una vez realizado esto, daremos Nex a todo asta llegra a la bentana donde nos pide ingresar el puerto COM que utilisaremos. Verificamos el puerto COM al que estamos conectados, muchas veces nos lo da por defaul pero ay que corroborarlo.
+<img src="
 con esto listo prosedemos, nos carga una barra y nos dise que si finlaizamos la conexion y un ejemplo launcher. seleccionamos ejemplo pra ver lo que seria el programa de un ensendido de led basico.
 <img src=""
 3.-Una vez viendo el ensendido del led. Tendremos que realizar la comunicación entre el programa y el arruinó así como identificar cada una de las partes del programa de ejemplo para más adelante realizar ciertos cambios de conveniencia.
