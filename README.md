@@ -148,7 +148,7 @@ Desarrollo
 1.-En este paso procedemos a abrir un nuevo proyecto y copiamos el ejemplo de arduino de la librería de LINX  que teníamos por defaul.
 <img src="praktik-4.png"/>
 2.- la indicación es realizar una práctica la cual nos muestre una respuesta seno en un osciloscopio y esta señal sea interrumpida al presionar un botón o que el sistema entre en corto. Para esto construimos esta función virtual  la cual es una variación como la que teníamos en el leed solo que contestaremos en esta ocasión un oscilador conectado a un osciloscopio virtual que será el que nos muestre la respuesta, como es un instrumento virtual tendrá un variador entre 0 y 1 que se multiplica como se muestra.
-
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206.1.png"/>
 3.-ahora se une nuestro oscilador con la comunicación física la cual modificamos para poder ver la respuesta y tenga la reacción al oprimir el push botón.
 
 Conclusión 
