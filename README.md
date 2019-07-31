@@ -138,19 +138,32 @@ Un temporizador que reducirá el tiempo de lectura del termómetro el cual podre
 Como se pudo obserbar en esta ocacion incorporamos unsistema fisico en un prpgrama el cual serviraara posteriprmente intentar unir estw proseso con uno que se pueda visulosar fisicamene y poder emplear mas elementos a el mismo, obteniendo resultados que serviran de alguna manera para la automatisacion y porsupuesto en elncontrol de multoples prosesos.
 
 
-Practica 6
-Respuesta senoidal con arduino
-Introducción
+# Practica 6
+### Respuesta senoidal con arduino
+# Introducción
 En matemáticas se denomina sinusoide o senoide a la curva que representa gráficamente la función seno y también a dicha función en sí. Es una curva que describe una oscilación repetitiva y suave.
 Su forma más básica en función del tiempo (t) es:    y(t)=A sen (ωt+ρ)
 La senoide es importante en física debido al hecho descrito por el teorema de Fourier que dice que toda onda, cualquiera que se sea su forma, puede expresarse de manera única como superposición (suma) de ondas sinusoidales de longitudes de onda y amplitudes definidas.1 Por este motivo se usa esta función para representar tanto a las ondas sonoras como las de la corriente alterna.
-Desarrollo 
+#  Desarrollo 
 1.-En este paso procedemos a abrir un nuevo proyecto y copiamos el ejemplo de arduino de la librería de LINX  que teníamos por defaul.
 <img src="praktik-4.png"/>
 2.- la indicación es realizar una práctica la cual nos muestre una respuesta seno en un osciloscopio y esta señal sea interrumpida al presionar un botón o que el sistema entre en corto. Para esto construimos esta función virtual  la cual es una variación como la que teníamos en el leed solo que contestaremos en esta ocasión un oscilador conectado a un osciloscopio virtual que será el que nos muestre la respuesta, como es un instrumento virtual tendrá un variador entre 0 y 1 que se multiplica como se muestra.
-<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206.1.png"/>
-3.-ahora se une nuestro oscilador con la comunicación física la cual modificamos para poder ver la respuesta y tenga la reacción al oprimir el push botón.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206.1.png"/>.
 
-Conclusión 
+3.-ahora se une nuestro oscilador con la comunicación física la cual modificamos para poder ver la respuesta y tenga la reacción al oprimir el push botón.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206.2.png"/>.
+# Conclusión 
 Con este sistema podemos observar la oscilación seno virtualmente y como con una comunicación física ocurre una interferencia en el propio programa, lo cual nos permite apreciar y manipular señales de sistemas más completos.
 
+# Practica 7 
+### Parpadeo de un led con rarduino
+# Introducción 
+Un sistema mecatronico tiene componentes de actuación y de medición. En la primera práctica el LED puede ser visto como un actuador.  Para ese caso particular la actuación que se vio fue la emisión de luz a través del LED. En esta práctica se sumaran como medir acciones exteriores. Se emplea un botón pulsador como elemento sensor, que nos indicará a través del tacto del dedo sobre el botón si este está activado o no.
+#  Desarrollo 
+1.- para empezar utilizaremos prácticamente el programa que teníamos a un principio para encender el led y lo copiamos a un proyecto nuevo para modificarlo. Para esto primero tenemos que crear la lógica para que el led nos dé el parpadeo virtualmente.
+
+2.-ahora lo que sigue es unir el circuito de encendido de un leed con el parpadeo quitando lo que se tenga que quitar,agregando un digital chanel,aparte del Digital write, ademas deuna compuerta AND conectada dirwcto al led.
+
+3.- fijarse que quitamos los puertos e introducimos la salida y el puerto al que vamos a comunicar el sistema  directamente en el programa lo cual nos da acceso al usuario de modificar estos elementos como el ejemplo del programa.
+
+4.- la respuesta de este sistema es posible verlo física y virtualmente  el cual es el propósito en esta practica.
