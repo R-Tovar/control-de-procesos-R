@@ -133,4 +133,6 @@ la importancia de la calibración y ajuste de un instrumento de medición,  en  
 
 Un temporizador que reducirá el tiempo de lectura del termómetro el cual podremos variar y para que prenda el led un límite el cual si rebasa el limite puesto prende nuestro indicador o podría ser una alarma.
 4.- de esta manera tenemos nuestro programa complero eñ cual se visualiza de la siguiente manera.
-<img src="
+<img src="practica 5.2.png"/>
+# Conclucion
+Como se pudo obserbar en esta ocacion incorporamos unsistema fisico en un prpgrama el cual serviraara posteriprmente intentar unir estw proseso con uno que se pueda visulosar fisicamene y poder emplear mas elementos a el mismo, obteniendo resultados que serviran de alguna manera para la automatisacion y porsupuesto en elncontrol de multoples prosesos.
