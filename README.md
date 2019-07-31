@@ -124,4 +124,7 @@ la importancia de la calibración y ajuste de un instrumento de medición,  en  
 
 # Desarrollo
 1.-Para empezar abrimos un nuevo archivo  como en las anteriores prácticas que se han realizado, con el propósito de construir un programa que nos muestre la el instrumento de medida de temperatura en funcionamiento.
-<img src=
+<img src="practica 5.png"/>.
+
+2.-Principal mente incorporamos los instrumentos que vamos a utilizar y en la ventana de bloques construimos lo principal queremos hacer, como el siclo Wilde, el botón de stop un leed que servirá como indicador y por supuesto el termómetro virtual, asi como algunos controles indicadores ya que es solo una cimulacion.
+<img src="
