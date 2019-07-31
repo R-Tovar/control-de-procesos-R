@@ -113,9 +113,15 @@ A lo largo de la carrera de ingenieria mecatronica emos utilisado varios metodos
 con esto listo prosedemos, nos carga una barra y nos dise que si finlaizamos la conexion y un ejemplo launcher. seleccionamos ejemplo pra ver lo que seria el programa de un ensendido de led basico.
 <img src="practik-4.2.png"/>.
 3.-Una vez viendo el ensendido del led. Tendremos que realizar la comunicación entre el programa y el arruinó así como identificar cada una de las partes del programa de ejemplo para más adelante realizar ciertos cambios de conveniencia.
-<img src="
+<img src="praktik-4.png"/>
 # Conclusión 
 Ya en esta interface podemos visualizar un sistema digital interactuando con un sistema físico el cual abre las posibilidades a  ideas de proyectos mas grandes complejos. pensando en proyectos escolaraes que tambien cabe la pocibilidad de que la interfase interactuar con otros dispocitivos.
 
 # Practica 5
+### Termómetro -1
+# Introduccion
+la importancia de la calibración y ajuste de un instrumento de medición,  en  esta  práctica  es  un  termómetro,  pero  esto  es  aplicable  a  cualquier instrumento  que  utilicemos  en  el  laboratorio  o  en  nuestro  día  a  día.  Ya  que,  los instrumentos que usamos se encuentran en constante uso y si son utilizados de la forma incorrecta, esto irá aumentando su incertidumbre, poco a poco los irá des calibrado  por lo que debemos verificar su estado. Además de entender el concepto de temperatura, y apoyados en esto poder plantear nuestra propia escala empírica.
 
+# Desarrollo
+1.-Para empezar abrimos un nuevo archivo  como en las anteriores prácticas que se han realizado, con el propósito de construir un programa que nos muestre la el instrumento de medida de temperatura en funcionamiento.
+<img src=
