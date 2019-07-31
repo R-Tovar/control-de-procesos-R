@@ -136,3 +136,21 @@ Un temporizador que reducirá el tiempo de lectura del termómetro el cual podre
 <img src="practica 5.2.png"/>
 # Conclucion
 Como se pudo obserbar en esta ocacion incorporamos unsistema fisico en un prpgrama el cual serviraara posteriprmente intentar unir estw proseso con uno que se pueda visulosar fisicamene y poder emplear mas elementos a el mismo, obteniendo resultados que serviran de alguna manera para la automatisacion y porsupuesto en elncontrol de multoples prosesos.
+
+
+Practica 6
+Respuesta senoidal con arduino
+Introducción
+En matemáticas se denomina sinusoide o senoide a la curva que representa gráficamente la función seno y también a dicha función en sí. Es una curva que describe una oscilación repetitiva y suave.
+Su forma más básica en función del tiempo (t) es:    y(t)=A sen (ωt+ρ)
+La senoide es importante en física debido al hecho descrito por el teorema de Fourier que dice que toda onda, cualquiera que se sea su forma, puede expresarse de manera única como superposición (suma) de ondas sinusoidales de longitudes de onda y amplitudes definidas.1 Por este motivo se usa esta función para representar tanto a las ondas sonoras como las de la corriente alterna.
+Desarrollo 
+1.-En este paso procedemos a abrir un nuevo proyecto y copiamos el ejemplo de arduino de la librería de LINX  que teníamos por defaul.
+<img src="praktik-4.png"/>
+2.- la indicación es realizar una práctica la cual nos muestre una respuesta seno en un osciloscopio y esta señal sea interrumpida al presionar un botón o que el sistema entre en corto. Para esto construimos esta función virtual  la cual es una variación como la que teníamos en el leed solo que contestaremos en esta ocasión un oscilador conectado a un osciloscopio virtual que será el que nos muestre la respuesta, como es un instrumento virtual tendrá un variador entre 0 y 1 que se multiplica como se muestra.
+
+3.-ahora se une nuestro oscilador con la comunicación física la cual modificamos para poder ver la respuesta y tenga la reacción al oprimir el push botón.
+
+Conclusión 
+Con este sistema podemos observar la oscilación seno virtualmente y como con una comunicación física ocurre una interferencia en el propio programa, lo cual nos permite apreciar y manipular señales de sistemas más completos.
+
