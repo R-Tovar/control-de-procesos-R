@@ -152,6 +152,8 @@ La senoide es importante en física debido al hecho descrito por el teorema de F
 
 3.-ahora se une nuestro oscilador con la comunicación física la cual modificamos para poder ver la respuesta y tenga la reacción al oprimir el push botón.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206.2.png"/>.
+4.- de esta forma podemos ver el circuito fisico.
+<img src=https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%206z.jpeg"/>.
 # Conclusión 
 Con este sistema podemos observar la oscilación seno virtualmente y como con una comunicación física ocurre una interferencia en el propio programa, lo cual nos permite apreciar y manipular señales de sistemas más completos.
 
@@ -161,9 +163,10 @@ Con este sistema podemos observar la oscilación seno virtualmente y como con un
 Un sistema mecatronico tiene componentes de actuación y de medición. En la primera práctica el LED puede ser visto como un actuador.  Para ese caso particular la actuación que se vio fue la emisión de luz a través del LED. En esta práctica se sumaran como medir acciones exteriores. Se emplea un botón pulsador como elemento sensor, que nos indicará a través del tacto del dedo sobre el botón si este está activado o no.
 #  Desarrollo 
 1.- para empezar utilizaremos prácticamente el programa que teníamos a un principio para encender el led y lo copiamos a un proyecto nuevo para modificarlo. Para esto primero tenemos que crear la lógica para que el led nos dé el parpadeo virtualmente.
-
+<img src=https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.png"/>.
 2.-ahora lo que sigue es unir el circuito de encendido de un leed con el parpadeo quitando lo que se tenga que quitar,agregando un digital chanel,aparte del Digital write, ademas deuna compuerta AND conectada dirwcto al led.
-
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.2.png"/>.
 3.- fijarse que quitamos los puertos e introducimos la salida y el puerto al que vamos a comunicar el sistema  directamente en el programa lo cual nos da acceso al usuario de modificar estos elementos como el ejemplo del programa.
-
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.1.png"/>.
 4.- la respuesta de este sistema es posible verlo física y virtualmente  el cual es el propósito en esta practica.
+ <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica7z.jpeg"/>.  
