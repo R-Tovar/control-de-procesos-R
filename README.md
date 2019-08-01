@@ -202,5 +202,28 @@ LabVIEW (acrónimo de Laboratory Virtual Instrumentation Engineering Workbench) 
 En esta práctica podemos interactuar de forma más específica con un proceso ya que el elemento del sensor nos da una interacción más visual transformando señales físicas en eléctricas y por ultimo digitales haciendo de este un sistema útil para cualquier usuario.
 
 
+# Practica 9
+### Control de motor DC
+# Introducción 
+El motor de corriente continua
+denominado también motor de corriente directa, motor CC o motor DC (por las iniciales en inglés direct current), es una máquina que convierte energía eléctrica en mecánica, provocando un movimiento rotatorio, gracias a la acción de un campo magnético.
+
+Un motor de corriente continua se compone principalmente de dos partes. El estátor da soporte mecánico al aparato y contiene los polos de la máquina, que pueden ser o bien devanados de hilo de cobre sobre un núcleo de hierro, o imanes permanentes. El rotor es generalmente de forma cilíndrica, también devanado y con núcleo, alimentado con corriente directa a través de delgas, que están en contacto alternante con escobillas fijas.
+
+# Objetivo 
+Lograr que nuestro motor DC pueda ser controlado desde una interface  donde se pueda controlar el voltaje para su velocidad de giro y  el sentido de giro del mismo.
+# Desarrollo 
+1.-  procedemos a crear la interface que como ya es costumbre constituye los elementos de LINX para la comunicación con arduino. También agregamos 2cuadros de escritura digital para los pines de comunicación y una señal de referencia pwm.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%209.png"/>
+2.- a los elementos de escritura digital les pondremos un panel de control, los cuales llevaran por nombre el pin de la dirección del motor que llevara para cada uno, así como al PWM.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%209.1.png"/>
+3.- Ahora en el primer cuadro selector digital creamos un controlador booleano en la entrada que será el motor DC y no olvidemos también poner a la entrada de nuestro control la ventana del puerto COM que se configura.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%209.2.png"/>
+4.- Por ultimo en la interface conectamos la salida al ciclo WILE y añadimos una perilla que nos servirá para regular el voltaje del motor, puede ser cualquier otro pero en este caso seleccionamos una perilla que tendrá una escala de 0 -5que es el voltaje suministrado por la interface.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%209.3.png"/>
+5.-Por ultimo armamos el circuito electrónico que lleva como elemento principal un integrado que funciona como puente H para el sentido de giro del motor. Y se aprecia de la siguiente forma. 
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%209.4.png"/>
+# Conclusión 
+En esta práctica se puede notar el incremento en la posibilidades de realizar tareas más complejas que sirvan de vastas posibilidades al usuario y de esta manera implementar este tipo de sistemas en una empresa o porque no asta en el hogar sabiendo que un motor tiene infinidad de aplicaciones.
 
 
