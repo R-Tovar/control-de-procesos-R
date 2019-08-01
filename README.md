@@ -187,10 +187,20 @@ LabView
 LabVIEW (acrónimo de Laboratory Virtual Instrumentation Engineering Workbench) es una plataforma y entorno de desarrollo para diseñar sistemas, con un lenguaje de programación visual gráfico. Recomendado para sistemas hardware y software de pruebas, control y diseño, simulado o real y embebido, pues acelera la productividad. El lenguaje que usa se llama lenguaje, donde la G simboliza que es lenguaje Gráfico
 # Desarrollo
 1.-Por supuesto se requieren los electos que complementan estas partes, como la entrada del puerto COM  y el indicador del pin al que estará conectado. No olvidemos también el botón de parado (stop) que estará conectado al sistema para pararlo en cualquier caso de error que estará conectado a una compuerta OR, para realizar su buen funcionamiento.
-<img src="”
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%208.png”/>.
+
 2.-Seguido de este paso complementaremos nuestro pequeño sistema para meter el termómetro que se conecta  a la señal analógica adquirida (salida voltaje) que al mismo tiempo será multiplicada por 100 para que podamos obtener la temperatura real del ambiente en grados Celsius.
-<img src="”
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%208.1.png”/>.
+          
 3.-El programa esta listo para usarse pero no olvidemos darle las modificaciones necesarias en la parte de instrumentos, para una mejor visualización.
-<img src="”
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%208.3.png” />.
+
 4.-El circuito no es muy complejo y podemos visualizarlo en la siguiente imagen con su elemento principal LM35 
-<img src="”
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%208.4.png” />.
+
+# Conclusión 
+En esta práctica podemos interactuar de forma más específica con un proceso ya que el elemento del sensor nos da una interacción más visual transformando señales físicas en eléctricas y por ultimo digitales haciendo de este un sistema útil para cualquier usuario.
+
+
+
+
