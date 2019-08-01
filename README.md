@@ -163,7 +163,7 @@ Con este sistema podemos observar la oscilación seno virtualmente y como con un
 Un sistema mecatronico tiene componentes de actuación y de medición. En la primera práctica el LED puede ser visto como un actuador.  Para ese caso particular la actuación que se vio fue la emisión de luz a través del LED. En esta práctica se sumaran como medir acciones exteriores. Se emplea un botón pulsador como elemento sensor, que nos indicará a través del tacto del dedo sobre el botón si este está activado o no.
 #  Desarrollo 
 1.- para empezar utilizaremos prácticamente el programa que teníamos a un principio para encender el led y lo copiamos a un proyecto nuevo para modificarlo. Para esto primero tenemos que crear la lógica para que el led nos dé el parpadeo virtualmente.
-<img src=https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.png"/>.
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.png"/>.
                                                                                        
 2.-ahora lo que sigue es unir el circuito de encendido de un leed con el parpadeo quitando lo que se tenga que quitar,agregando un digital chanel,aparte del Digital write, ademas deuna compuerta AND conectada dirwcto al led.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%207.2.png"/>.
@@ -173,3 +173,24 @@ Un sistema mecatronico tiene componentes de actuación y de medición. En la pri
 
 4.- la respuesta de este sistema es posible verlo física y virtualmente  el cual es el propósito en esta practica.
  <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica7z.jpeg"/>.  
+ 
+ 
+ # Practica 8
+ ### Sensor LM350 y Arduino
+ 
+ # Introduccion
+En esta practica podremos observar el funcionamiento de un sensor LM35 conjuntamente con  el Sofware LabView ya que en este aremos el programa que ara funcionar el sensor.
+LM35
+El LM35 es un sensor de temperatura integrado de precisión, cuya tensión de salida es linealmente proporcional a temperatura en ºC (grados centígrados).
+El LM35 no requiere ninguna calibración externa o ajuste para proporcionar una precisión típica de ± 1.4 ºC a temperatura ambiente y ± 3.4 ºC a lo largo de su rango de temperatura (de -55 a 150 ºC).
+LabView
+LabVIEW (acrónimo de Laboratory Virtual Instrumentation Engineering Workbench) es una plataforma y entorno de desarrollo para diseñar sistemas, con un lenguaje de programación visual gráfico. Recomendado para sistemas hardware y software de pruebas, control y diseño, simulado o real y embebido, pues acelera la productividad. El lenguaje que usa se llama lenguaje, donde la G simboliza que es lenguaje Gráfico
+# Desarrollo
+1.-Por supuesto se requieren los electos que complementan estas partes, como la entrada del puerto COM  y el indicador del pin al que estará conectado. No olvidemos también el botón de parado (stop) que estará conectado al sistema para pararlo en cualquier caso de error que estará conectado a una compuerta OR, para realizar su buen funcionamiento.
+<img src="”
+2.-Seguido de este paso complementaremos nuestro pequeño sistema para meter el termómetro que se conecta  a la señal analógica adquirida (salida voltaje) que al mismo tiempo será multiplicada por 100 para que podamos obtener la temperatura real del ambiente en grados Celsius.
+<img src="”
+3.-El programa esta listo para usarse pero no olvidemos darle las modificaciones necesarias en la parte de instrumentos, para una mejor visualización.
+<img src="”
+4.-El circuito no es muy complejo y podemos visualizarlo en la siguiente imagen con su elemento principal LM35 
+<img src="”
