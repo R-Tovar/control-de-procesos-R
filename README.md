@@ -245,7 +245,7 @@ En  la práctica se pide  controlar el sentido de giro de un motor sin que exist
 4.-En los digital write asi como en el push booton  creamos una ventana de control para poder indicar en pin que debe reaccionar para el sentido de giro.
 <img src="practica 10.4.png/>.
 5.-Por ultimo pondremos un evaluador,  el cual nos indicara porque punto debe de pasar el voltaje  y no ocasionar un corto. 
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.5.png"/>.
 # Conclusión
 En esta práctica la complicación surgió al punto de tratar de enviar el giro a un solo lado del puente ya que tendría que servir como una protección desde la interface, pero al comparar el tipo de dato que enviará nuestro sistema se pudo resolver el problema.
 
@@ -262,7 +262,7 @@ La salida del LM35 es lineal con la temperatura, incrementando el valor a razón
 Los sensores LM35 son relativamente habituales en el mundo de los aficionados a la electrónica por su bajo precio, y su sencillez de uso.
 # Desarrollo
 1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
-<img src="
+<img src=""https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.1.png"/>.
 2.- en este caso el progrma se inicia con el ya muy conocido siclo wiley se va construyendo con su respectivo open y clos de LINX, en medio de esto y dentro del ciclo, pondremos un analog read para que nos identifique la señal de sensor. 
 <img src="
 3.-ahora debemos poner tres ventanas de control DBL las cuales llamaremos temperatura actual, temperatura mínima y temperatura máxima  para visualizar los parámetros de nuestra temperatura.  Cabe mencionar que en la salida de la temperatura máxima y mínima pondremos un menor igual o mayor igual para hacer la comparación.
