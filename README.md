@@ -239,11 +239,11 @@ En  la práctica se pide  controlar el sentido de giro de un motor sin que exist
 1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.1.png"/>.
 2.-Ahoara procedemos a realizar nuestras conexiones dentro y fuera del ciclo wile en esta ocasión pondremos un lector digital, 2 escritores digitales y un ciclo de PWM.
-<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.2.png
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.2.png/>.
 3.-En la ventana de control también ponemos un una perilla con un indicador digital para poder ver el voltaje  que estará alimentando nuestro motor. Sin olvidar el stop.
-<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.3.png
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.3.png"/>.
 4.-En los digital write asi como en el push booton  creamos una ventana de control para poder indicar en pin que debe reaccionar para el sentido de giro.
-<img src="
+<img src="practica 10.4.png/>.
 5.-Por ultimo pondremos un evaluador,  el cual nos indicara porque punto debe de pasar el voltaje  y no ocasionar un corto. 
 <img src="
 # Conclusión
