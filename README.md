@@ -270,7 +270,7 @@ Los sensores LM35 son relativamente habituales en el mundo de los aficionados a 
 4.-ahora ponemos un select en cada salida de la temperatura máxima y mínima en el cual seleccionara un mensaje según sea el caso de la temperatura.
 <img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2011.4.png"/>.
 5.- después en la salida de los select pondremos una ventana de texto la cual nos mostrara el mensaje según sea la ocasión  y enseguida una diferencia el cual activará una alarma en forma de luz. 
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2011.5.png"/>.
 # Conclusión
 Esta es una manera diferente de de hacer un programa de sensor de temperatura pero con algunos detalles como las alarmas y los mensajes de advertencia los cuales podrían ser muy útiles en la industria  en un sistema el cual tenga que mantenerse en un rango de temperatura.
 
