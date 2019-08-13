@@ -247,4 +247,30 @@ En  la práctica se pide  controlar el sentido de giro de un motor sin que exist
 5.-Por ultimo pondremos un evaluador,  el cual nos indicara porque punto debe de pasar el voltaje  y no ocasionar un corto. 
 <img src="
 # Conclusión
-En esta práctica la complicación surgió al punto de tratar de enviar el giro a un solo lado del puente ya que tendría que servir como una protección desde la interface, pero al comparar el tipo de dato que enviará nuestro sistema se pudo resolver el problema
+En esta práctica la complicación surgió al punto de tratar de enviar el giro a un solo lado del puente ya que tendría que servir como una protección desde la interface, pero al comparar el tipo de dato que enviará nuestro sistema se pudo resolver el problema.
+
+
+
+# practica 11
+### Programa de temperatura con Alarmas
+# Objetivo
+Construir un programa en el cual se pueda visualizar la tempratura de un termomentro con un sensor LM35 el cual debe leer la tempratura ambiente y en un dado casi si la tempratura baja o sube.
+# Introducción
+El LM35 es un sensor de temperatura digital. A diferencia de otros dispositivos como los termistores en los que la medición de temperatura se obtiene de la medición de su resistencia eléctrica, el LM35 es un integrado con su propio circuito de control, que proporciona una salida de voltaje proporcional a la temperatura.
+
+La salida del LM35 es lineal con la temperatura, incrementando el valor a razón de 10mV por cada grado centígrado. El rango de medición es de -55ºC (-550mV) a 150ºC (1500 mV). Su precisión a temperatura ambiente es de 0,5ºC.
+Los sensores LM35 son relativamente habituales en el mundo de los aficionados a la electrónica por su bajo precio, y su sencillez de uso.
+# Desarrollo
+1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
+<img src="
+2.- en este caso el progrma se inicia con el ya muy conocido siclo wiley se va construyendo con su respectivo open y clos de LINX, en medio de esto y dentro del ciclo, pondremos un analog read para que nos identifique la señal de sensor. 
+<img src="
+3.-ahora debemos poner tres ventanas de control DBL las cuales llamaremos temperatura actual, temperatura mínima y temperatura máxima  para visualizar los parámetros de nuestra temperatura.  Cabe mencionar que en la salida de la temperatura máxima y mínima pondremos un menor igual o mayor igual para hacer la comparación.
+<img src="
+4.-ahora ponemos un select en cada salida de la temperatura máxima y mínima en el cual seleccionara un mensaje según sea el caso de la temperatura.
+<img src="
+5.- después en la salida de los select pondremos una ventana de texto la cual nos mostrara el mensaje según sea la ocasión  y enseguida una diferencia el cual activará una alarma en forma de luz. 
+<img src="
+# Conclusión
+Esta es una manera diferente de de hacer un programa de sensor de temperatura pero con algunos detalles como las alarmas y los mensajes de advertencia los cuales podrían ser muy útiles en la industria  en un sistema el cual tenga que mantenerse en un rango de temperatura.
+
