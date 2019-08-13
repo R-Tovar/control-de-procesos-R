@@ -227,3 +227,19 @@ Lograr que nuestro motor DC pueda ser controlado desde una interface  donde se p
 En esta práctica se puede notar el incremento en la posibilidades de realizar tareas más complejas que sirvan de vastas posibilidades al usuario y de esta manera implementar este tipo de sistemas en una empresa o porque no asta en el hogar sabiendo que un motor tiene infinidad de aplicaciones.
 
 
+# practica 10 
+### Control de giro de un motor DC con proteccion
+# Objetivo
+En esta práctica se pretende controlar un motor de corriente directa con la condición de poner un puente H y que tenga una protección con la cual no pueda haber un corto circuito si el usuario llegara presionar los dos botones  de sentido de giro, provocando un corto circuito.
+# Introducción
+Para controlar la dirección en la que gira un motor de corriente continua, se necesita invertir la polaridad de la conexion eléctrica del motor en cuestión, de alguna manera hay que intercambiar los cables que alimentan el dispositivo.
+Si pensamos en una conexión normal como la de la siguiente imagen, vemos como cada terminal del motor recibe un polo distinto. Con la conexión anterior conseguimos que el motor gire en un sentido cualquiera, si necesitamos que gire en el sentido contrario, basta con intercambiar las conexiones, pero esto solo es útil si no necesitamos conmutar rápidamente entre una dirección u otra.
+#Desarrollo
+En  la práctica se pide  controlar el sentido de giro de un motor sin que exista un corto circuito, o como se ha podido mover en Arduino existe una protección que impide un error humano.
+1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
+2.-Ahoara procedemos a realizar nuestras conexiones dentro y fuera del ciclo wile en esta ocasión pondremos un lector digital, 2 escritores digitales y un ciclo de PWM.
+3.-En la ventana de control también ponemos un una perilla con un indicador digital para poder ver el voltaje  que estará alimentando nuestro motor. Sin olvidar el stop.
+4.-En los digital write asi como en el push booton  creamos una ventana de control para poder indicar en pin que debe reaccionar para el sentido de giro.
+5.-Por ultimo pondremos un evaluador,  el cual nos indicara porque punto debe de pasar el voltaje  y no ocasionar un corto. 
+# Conclusión
+En esta práctica la complicación surgió al punto de tratar de enviar el giro a un solo lado del puente ya que tendría que servir como una protección desde la interface, pero al comparar el tipo de dato que enviará nuestro sistema se pudo resolver el problema
