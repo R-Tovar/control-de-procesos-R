@@ -264,7 +264,7 @@ Los sensores LM35 son relativamente habituales en el mundo de los aficionados a 
 1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
 <img src=""https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.1.png"/>.
 2.- en este caso el progrma se inicia con el ya muy conocido siclo wiley se va construyendo con su respectivo open y clos de LINX, en medio de esto y dentro del ciclo, pondremos un analog read para que nos identifique la señal de sensor. 
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2011.2.png"/>.
 3.-ahora debemos poner tres ventanas de control DBL las cuales llamaremos temperatura actual, temperatura mínima y temperatura máxima  para visualizar los parámetros de nuestra temperatura.  Cabe mencionar que en la salida de la temperatura máxima y mínima pondremos un menor igual o mayor igual para hacer la comparación.
 <img src="
 4.-ahora ponemos un select en cada salida de la temperatura máxima y mínima en el cual seleccionara un mensaje según sea el caso de la temperatura.
