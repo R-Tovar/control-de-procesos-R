@@ -237,7 +237,7 @@ Si pensamos en una conexión normal como la de la siguiente imagen, vemos como c
 #Desarrollo
 En  la práctica se pide  controlar el sentido de giro de un motor sin que exista un corto circuito, o como se ha podido mover en Arduino existe una protección que impide un error humano.
 1.-Par esto creamos un nuevo proyecto en labVIEW y como es un proyecto con arduino, abrimos  la librería de LINX para hacer la conexión interface.
-<img src="
+<img src="https://github.com/R-Tovar/control-de-procesos-R/blob/master/practica%2010.1.png"/>.
 2.-Ahoara procedemos a realizar nuestras conexiones dentro y fuera del ciclo wile en esta ocasión pondremos un lector digital, 2 escritores digitales y un ciclo de PWM.
 <img src="
 3.-En la ventana de control también ponemos un una perilla con un indicador digital para poder ver el voltaje  que estará alimentando nuestro motor. Sin olvidar el stop.
